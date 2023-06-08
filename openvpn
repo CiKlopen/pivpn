@@ -1,1 +1,11 @@
+0. 配置系统代理 
+    0.1     cd /etc/apt/apt.conf.d
+      0.2   sudo nano 10proxy
+//下面为10proxy的配置内容
+//更改ip和端口即可
 
+  GNU nano 5.4                         10proxy                                  
+Acquire::http::Proxy "http://192.168.1.9:7890";
+
+1. 从git仓库中下载脚本
+2. 下载完成自动启动，配置一系列东西
